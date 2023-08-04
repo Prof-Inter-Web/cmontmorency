@@ -3,6 +3,8 @@
   <head>
     <title>Squelette</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <style>
       * {
         box-sizing: border-box;
@@ -15,7 +17,6 @@
 
       header {
         background-color: #e41111;
-        padding: 100px;
         text-align: center;
         font-size: 35px;
         color: white;
@@ -71,6 +72,10 @@
         }
       }
 
+      nav {
+        z-index: 2;
+      }
+
 
       @media (max-width: 600px) {
         img {
@@ -85,6 +90,14 @@
     <img src="img/skeleton-png-14052.png" />
 
     <header>
+
+      <nav class="topnav">
+        <a class="active" href="./index.html">Accueil</a>
+        <a href="./squelette.html">Balises principales</a>
+        <a href="./layout.html">Balises sémantiques</a>
+       </nav>
+
+
       <h2>Header</h2>
       <p>balises</p>
     </header>
